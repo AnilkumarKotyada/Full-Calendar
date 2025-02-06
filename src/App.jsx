@@ -264,14 +264,14 @@ function App() {
                             {resources.map((resource) => (
                                 <li key={resource.id} className="resource-item ml-60">
                                     {resource.title}
-                                    <button onClick={() => handleDeleteResource(resource.id)} className="delete-resource-btn py-1 px-3"
+                                    <button onClick={() => handleDeleteResource(resource.id)} className="delete-resource-btn bg-blue-500 py-1 px-3"
                                         > 
                                     🗑
                                     </button>
                                 </li>
                             ))}
                         </ul>
-                        <button onClick={() => setIsModalOpen(false)} className="close-btn">
+                        <button onClick={() => setIsModalOpen(false)} className="close-btn bg-blue-500">
                             Close
                         </button>
                     </Modal>
