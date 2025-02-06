@@ -248,7 +248,7 @@ function App() {
                             Add Resource
                         </button>
                     </div>
-                    <button onClick={() => setIsModalOpen(true)} className="delete-btn px-4 py-2 m-0 ml-[-300px]">
+                    <button onClick={() => setIsModalOpen(true)} className="delete-btn bg-blue-500 px-4 py-2 m-0 ml-[-300px]">
                         Delete
                     </button>
                     {/*Delete the Resources Modal */}
